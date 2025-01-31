@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "stateVar",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mycontract.sol": "SolidityVarTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mycontract.sol": {
+			"keccak256": "0xe02ce6d1451d62f373743c033b64e3b9cfd4bf693b57991e22193f74ca9f3e33",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14413471716e6725c3f44eb14fd8bfc64b206232faa27a64e80be81869223e61",
+				"dweb:/ipfs/QmQHcpLKkAyV7LrXgdEj5SEyzxrso9gW1R7gSUe12kN3dc"
+			]
+		}
+	},
+	"version": 1
+}

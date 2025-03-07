@@ -15,24 +15,28 @@ contract whileLoop{
 }
 
 
-//sum of digits in a number
-contract sumDigits {
-    function sumDigit(uint n) public pure returns (uint) {
-        uint sum = 0;
-        while (true) {
+//sum of digits in a number1
+pragma solidity ^0.8.20;
+
+contract SumDigits {
+    function sumDigit(uint256 n) public pure returns (uint256) {
+        uint256 sum = 0;
+        while (n > 0) {
             sum += n % 10;
             n /= 10;
-
-            if(n == 0) {
-                break ;
-            }
         }
         return sum;
     }
 }
 
-// sum of an array
+contract SumArray {
+    function sumOfArray(uint256[] memory arr) public pure returns (uint256) {
+        uint256 sum = 0;
+        uint256 length = arr.length;
 
-contract sum {
-    function sumOfArray(uint[] memory arr)
+        for (uint256 i = 0; i < length; i++) {
+            sum += arr[i];
+        }
+        return sum;
+    }
 }

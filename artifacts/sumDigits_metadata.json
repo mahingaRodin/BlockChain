@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"loops.sol": "sumDigits"
+			"loops.sol": "SumDigits"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"loops.sol": {
-			"keccak256": "0x21e568482e2ea486bb8f60a1d51bad23f81aecaefb9f1d846970a22614dd98ef",
+			"keccak256": "0x1bdf2fdceaaa881ecc1771cb9784480bbd938000165dd570992febfbabdbaf20",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c595389bc1e4d94d527ff4d369c7ec11ea28868e88b212699164a4441d497538",
-				"dweb:/ipfs/QmQZML847eTazj3Ya16KPi7sBMRB1KSaMSehECnG3GdkFo"
+				"bzz-raw://a9e09a35ac4a4575138dbab3843ff386d845cde5e813ac49edffffd62fd80378",
+				"dweb:/ipfs/QmP8663zE3gBHHKf1yeYSYa1mW239oJgda6WJDoio48f7B"
 			]
 		}
 	},
